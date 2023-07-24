@@ -30,5 +30,5 @@ spec:
   - port: 8080
     targetPort: 8080
   type: NodePort
-  ClusterIP: 172.20.0.3
+  clusterIP: 172.20.0.3
 
