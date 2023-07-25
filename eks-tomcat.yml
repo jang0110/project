@@ -30,6 +30,7 @@ spec:
     targetPort: 8080
   type: NodePort
   clusterIP: 172.20.0.3
+<<<<<<< HEAD
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
@@ -43,3 +44,6 @@ spec:
     kind: Deployment
     name: eks-tomcat
   targetCPUUtilizationPercentage: 50
+=======
+
+>>>>>>> 50553f580fdd87eedc216638dd52f11d0a609bdc
