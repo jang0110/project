@@ -17,6 +17,11 @@ spec:
       containers:
       - image: 843285683127.dkr.ecr.us-east-2.amazonaws.com/nginx-ecr
         name: eks-nginx
+        resources:
+          limits:
+            cpu: 100m
+          requests:
+            cpu: 50m
 ---
 apiVersion: v1
 kind: Service
